@@ -35,12 +35,16 @@ public class WikiCrawlerTest {
 		jedis = JedisMaker.make();
 		index = new JedisIndex(jedis);
 		String source = "https://en.wikipedia.org/wiki/Java_(programming_language)";
+		//String source = "https://en.wikipedia.org/wiki/Programming_language";
+		
 		wc = new WikiCrawler(source, index);
 
 		// for testing purposes, load up the queue
 		WikiFetcher wf = new WikiFetcher();
 		Elements paragraphs = wf.readWikipedia(source);
 		wc.queueInternalLinks(paragraphs);
+		System.out.println ("QUEUE SIZE = " + wc.queueSize());
+		//assertThat(wc.queueSize(), is(396));
 	}
 
 	/**
@@ -49,6 +53,12 @@ public class WikiCrawlerTest {
 	@After
 	public void tearDown() throws Exception {
 		jedis.close();
+	}
+	
+	@Test
+	public void testProgrammingLangPage ()
+	{
+		
 	}
 
 	/**

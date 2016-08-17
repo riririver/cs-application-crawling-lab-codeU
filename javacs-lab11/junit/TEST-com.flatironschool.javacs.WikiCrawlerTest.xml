@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="riyana-pc" name="com.flatironschool.javacs.WikiCrawlerTest" skipped="0" tests="2" time="6.233" timestamp="2016-08-17T03:08:05">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.SYSTEMROOT" value="C:\WINDOWS" />
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="RIYANA-PC" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="env.LESSCHARSET" value="utf-8" />
+    <property name="os.name" value="Windows 10" />
+    <property name="env.HISTFILE" value="c:/Users/riyan/.bash_history" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes" />
+    <property name="env.COMPUTERNAME" value="RIYANA-PC" />
+    <property name="env.PWD" value="c:/Users/riyan/codeU/cs-application-crawling-lab-codeU" />
+    <property name="env.MAKE_MODE" value="unix" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="env.LESS" value="-FRSX" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.8.0_92-b14" />
+    <property name="env.HOMEPATH" value="\Users\riyan" />
+    <property name="user.name" value="riyan" />
+    <property name="env._" value="c:/RailsInstaller/Ruby2.2.0/bin/learn-test" />
+    <property name="env.USER" value="riyan" />
+    <property name="env.GNUPGHOME" value="c:/Users/riyan/.gnupg" />
+    <property name="env.MSYSTEM" value="MINGW32" />
+    <property name="env.PATH" value="c:\Users\riyan\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\python\;c:\python\Scripts;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Git\cmd;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_92\bin;c:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\Users\riyan\AppData\Local\Microsoft\WindowsApps;." />
+    <property name="user.language" value="en" />
+    <property name="env.WINDIR" value="C:\WINDOWS" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="JavaCS" />
+    <property name="java.version" value="1.8.0_92" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 94 Stepping 3, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:/Users/riyan/AppData/Local/Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\endorsed" />
+    <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.8.0_92\bin\java.exe" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="env.SYSTEMDRIVE" value="C:" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="ant.file.JavaCS" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre" />
+    <property name="env.APPDATA" value="C:\Users\riyan\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.LOGNAME" value="riyan" />
+    <property name="ant.file" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="env._USE_CLASSPATH" value="no" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.92-b14" />
+    <property name="env.ASL.LOG" value="Destination=file" />
+    <property name="env.USERPROFILE" value="C:\Users\riyan" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.SSL_CERT_FILE" value="C:\RailsInstaller\cacert.pem" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_92" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TERM" value="cygwin" />
+    <property name="env.PROGRAMFILES" value="C:\Program Files" />
+    <property name="env.TMP" value="C:/Users/riyan/AppData/Local/Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="user.script" value="" />
+    <property name="target" value="1.7" />
+    <property name="user.home" value="C:\Users\riyan" />
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.OLDPWD" value="c:/Users/riyan/codeU" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\riyan\bin;.;C:\RailsInstaller\Git\local\bin;C:\RailsInstaller\Git\mingw\bin;C:\RailsInstaller\Git\bin;c:\python\;c:\python\Scripts;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Windows\system32;c:\Windows;c:\Windows\System32\Wbem;c:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files\Intel\Intel(R) Management Engine Components\DAL;c:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Git\cmd;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\RailsInstaller\Git\cmd;c:\RailsInstaller\Ruby2.2.0\bin;c:\Program Files\Java\jdk1.8.0_92\bin;c:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\Users\riyan\AppData\Local\Microsoft\WindowsApps;.;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.PSMODULEPATH" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules" />
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\bin;c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\lib\jedis-2.8.0.jar;c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\lib\jsoup-1.8.3.jar;c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\lib\junit-4.12.jar;c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-core-1.3.jar;c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\lib\hamcrest-library-1.3.jar;C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\ant-launcher.jar;C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\ant.jar;C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\ant-junit.jar;C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiCrawlerTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\junit\TEST-com.flatironschool.javacs.WikiCrawlerTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\junitvmwatcher339386116442725954.properties propsfile=c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11\junit2934703609218668927.properties" />
+    <property name="env.PROGRAMW6432" value="C:\Program Files" />
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)" />
+    <property name="ant.file.type.JavaCS" value="file" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="env.LOGONSERVER" value="\\RIYANA-PC" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="c:/Users/riyan" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7" />
+    <property name="env.PROCESSOR_REVISION" value="5e03" />
+    <property name="java.io.tmpdir" value="C:\Users\riyan\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.COMSPEC" value="C:\WINDOWS\system32\cmd.exe" />
+    <property name="env.PROGRAMDATA" value="C:\ProgramData" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="env.ANT_CMD_LINE_ARGS" value=" test -buildfile javacs-lab11/build.xml" />
+    <property name="env.PLINK_PROTOCOL" value="ssh" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\riyan\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="env.INPUTRC" value="C:/RailsInstaller/Git/etc/inputrc" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="basedir" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU\javacs-lab11" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\riyan\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="env.USERNAME" value="riyan" />
+    <property name="source" value="1.7" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="RIYANA-PC" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="env.=C:" value="c:\Users\riyan\codeU\cs-application-crawling-lab-codeU" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testProgrammingLangPage" time="0.536" />
+  <testcase classname="com.flatironschool.javacs.WikiCrawlerTest" name="testCrawl" time="5.647" />
+  <system-out><![CDATA[***** Before adding links size of queue = 1
+**Size of queue = 199
+QUEUE SIZE = 199
+***** Before adding links size of queue = 1
+**Size of queue = 199
+QUEUE SIZE = 199
+Indexing https://en.wikipedia.org/wiki/Java_(programming_language)
+***** Before adding links size of queue = 198
+**Size of queue = 396
+Indexing https://en.wikipedia.org/wiki/Programming_language
+***** Before adding links size of queue = 395
+**Size of queue = 653
+Indexing https://en.wikipedia.org/wiki/Concurrent_computing
+***** Before adding links size of queue = 652
+**Size of queue = 704
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
